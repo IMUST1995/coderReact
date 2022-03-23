@@ -1,13 +1,13 @@
 import * as React from 'react';
 import Button from '@mui/material/Button';
-import Carrito from '../Carrito';
+import Carrito from './Carrito';
 
 const style = {
     container: {
         display: 'flex',
         alingItems: 'center',
         justifyContent: 'space-between',
-        backgroundColor: 'red',
+        backgroundColor: '#3D7EAA'
     }
 }
 function NavBar(){

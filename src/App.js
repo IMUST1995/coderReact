@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar'
-import Card from './components/Card'
+import Products from './components/Products'
 
 function App() {
   return (
       <div>
         <NavBar/>
+        <Products/>
       </div>
   ); 
 }
