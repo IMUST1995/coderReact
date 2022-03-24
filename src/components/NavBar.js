@@ -1,13 +1,12 @@
 import * as React from 'react';
-import Button from '@mui/material/Button';
-import Carrito from './Carrito';
-
+import CartWidget from './CartWidget/CardWidget'
 const style = {
     container: {
         display: 'flex',
         alingItems: 'center',
         justifyContent: 'space-between',
-        backgroundColor: '#3D7EAA'
+        backgroundColor: '#900C3F',
+        minHeight: '50px',
     }
 }
 function NavBar(){
@@ -16,12 +15,7 @@ function NavBar(){
         <div> 
             Lofo
         </div>
-        <div>
-            <Button className='boton' variant="contained">Contained</Button>
-            <Button className='boton' variant="contained">Contained</Button>
-            <Button className='boton' variant="contained">Contained</Button>
-            <Carrito/>
-        </div>
+        <CartWidget/>
     </header>
     )
 }

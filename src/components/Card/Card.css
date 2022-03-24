@@ -1,0 +1,15 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 150;
+    background-color: #C70039;
+    border: 1px solid rgba(0, 0, 0, 0.281);
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 2rem;
+    color: #DAF7A6;
+}
+.elementInCard{
+    margin: 0.3rem;
+}

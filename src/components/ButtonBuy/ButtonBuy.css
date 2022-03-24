@@ -1,0 +1,9 @@
+.ButtonBuy{
+    color: white;
+    background-color: #900C3F;
+    border: solid 1px #DAF7A6;
+    border-radius: 5px;
+    padding: .5rem;
+    margin-top: .5rem;
+    cursor: pointer;
+}
