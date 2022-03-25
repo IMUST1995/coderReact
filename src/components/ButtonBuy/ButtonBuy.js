@@ -1,8 +1,9 @@
 import './ButtonBuy.css'
+import Counter from '../Contador'
 
 const ButtonBuy = () =>{
     return(
-        <button className="ButtonBuy">Lo quiero!</button>
+        <Counter/>
     )
 }
 export default ButtonBuy

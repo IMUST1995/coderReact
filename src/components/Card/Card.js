@@ -1,5 +1,9 @@
 import './Card.css'
 import ButtonBuy from '../ButtonBuy/ButtonBuy'
+
+const data = {
+    
+}
 /* const style = {
     card: {
         display: 'flex',
@@ -9,7 +13,8 @@ import ButtonBuy from '../ButtonBuy/ButtonBuy'
         minWidth: 150,
     }
 } */
-const Card = ({name, brand, price}) =>{
+const Card = (data) =>{
+    const {name, brand, price} = data
     return(
             <div className='card'>
                 <h2 className='elementInCard'>{name}</h2>
