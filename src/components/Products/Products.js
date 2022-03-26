@@ -13,10 +13,10 @@ import './Products.css'
 const Products = () => {
     return(
         <div className='products'>
-            <Card name={'Whey Protein'} brand={'Optimun Nutrition'} price={69.95}/>
-            <Card name={'Beta Alanine'} brand={'Nutricost'} price={30}/>
-            <Card name={'Creatine Monohidrated'} brand={'Bulk Suplements'} price={50}/>
-            <Card name={'Isolate Protein'} brand={'Optimun Nutrition'} price={80}/>
+            <Card name={'Whey Protein'} brand={'Optimun Nutrition'} price={69.95} stock={5}/>
+            <Card name={'Beta Alanine'} brand={'Nutricost'} price={30} stock={10}/>
+            <Card name={'Creatine Monohidrated'} brand={'Bulk Suplements'} price={50} stock={0}/>
+            <Card name={'Isolate Protein'} brand={'Optimun Nutrition'} price={80} stock={2}/>
         </div>
     )
 }
