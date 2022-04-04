@@ -5,7 +5,7 @@ const style = {
         display: 'flex',
         alingItems: 'center',
         justifyContent: 'space-between',
-        backgroundColor: '#900C3F',
+        backgroundColor: '#2a1600',
         minHeight: '50px',
     }
 }

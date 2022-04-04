@@ -1,24 +1,26 @@
 .ButtonBuy{
-    border: 1px solid rgb(255, 195, 0);
+    border: 1px solid rgb(137, 105, 0);
     border-radius: 5px;
     color: #DAF7A6;
-    background-Color: #FF5733;
+    background-Color: #2a1600;
     margin: 1rem .5rem;
     font-size: 1rem;
-    min-width: 100%;
+    min-width: 75%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    cursor: pointer;
 }
 .button{
     border: none;
-    background-Color: #FF5733;
+    background-Color: #2a1600;
     cursor: pointer;
-    margin: 0.1rem 0.8rem;
+    margin: 0.1rem 1rem;
     padding: 5px;
     color:#DAF7A6;
     font-size: 1.3rem;
+    text-align: center;
     }
 p{
     margin: 0px 10px 0px 10px;

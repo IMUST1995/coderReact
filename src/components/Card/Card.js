@@ -10,11 +10,15 @@ import ButtonBuy from '../ButtonBuy/ButtonBuy'
         minWidth: 150,
     }
 } */
-const Card = (data) =>{
-    const {name, brand, price, stock} = data
+const Card = ({ data }) =>{
+    const {title, brand, price, stock, img} = data
     return(
             <div className='card'>
-                <h2 className='elementInCard'>{name}</h2>
+                {console.log(data)}
+                <div className='divImg'>
+                    <img src={`./img/${img}`}></img>
+                </div>
+                <h2 className='elementInCard'>{title}</h2>
                 <h4 className='elementInCard'>{brand}</h4>
                 <h3 className='elementInCard'>$ {price}</h3>
                 <ButtonBuy stock={stock} initial={1}/>

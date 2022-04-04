@@ -16,12 +16,13 @@ const ButtonBuy = (props) => {
             setContador(contador -1)
         }
     }
-    //'renderizamos' los botones con su respectiva funcion
+    //'renderizamos' los botones con su respectiva funcion  
     return(
         <div className='ButtonBuy'>
-            <button className='button' onClick={disminuir}>-</button>
+            <button className='button'>Details</button>
+            {/* <button className='button' onClick={disminuir}>-</button>
             <p>{contador}</p>
-            <button className='button' onClick={incrementar}>+</button>
+            <button className='button' onClick={incrementar}>+</button> */}
         </div>
     )
 }
