@@ -1,6 +1,6 @@
-import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+/* import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined'; */
 
-const style = {
+/* const style = {
     cart:{
         color: '#FFC300',
         fontSize: '2.5rem',
@@ -15,4 +15,4 @@ const CarWidget = () => {
 }
 
 
-export default CarWidget
+export default CarWidget */

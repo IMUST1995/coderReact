@@ -14,7 +14,6 @@ const Card = ({ data }) =>{
     const {title, brand, price, stock, img} = data
     return(
             <div className='card'>
-                {console.log(data)}
                 <div className='divImg'>
                     <img src={`./img/${img}`}></img>
                 </div>

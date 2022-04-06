@@ -1,10 +1,12 @@
 import * as React from 'react';
 import CartWidget from './CartWidget/CardWidget'
+import ButtonNavbar from './buttonNavbar/buttonNavbar';
+
 const style = {
     container: {
         display: 'flex',
         alingItems: 'center',
-        justifyContent: 'space-between',
+        justifyContent: 'space-around',
         backgroundColor: '#2a1600',
         minHeight: '50px',
     }
@@ -12,10 +14,8 @@ const style = {
 function NavBar(){
     return(
     <header style={style.container}>
-        <div> 
-            Lofo
-        </div>
-        <CartWidget/>
+        <ButtonNavbar/>
+        {/* <CartWidget/> */}
     </header>
     )
 }

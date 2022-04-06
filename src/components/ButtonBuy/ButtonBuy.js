@@ -4,7 +4,7 @@ import './ButtonBuy.css'
 
 
 const ButtonBuy = (props) => {
-    const {stock, initial} = props
+    /* const {stock, initial} = props
     const [contador, setContador] = useState(initial)
     const incrementar = () => {
         if(contador < stock){
@@ -15,7 +15,7 @@ const ButtonBuy = (props) => {
         if(contador > 0){
             setContador(contador -1)
         }
-    }
+    } */
     //'renderizamos' los botones con su respectiva funcion  
     return(
         <div className='ButtonBuy'>
