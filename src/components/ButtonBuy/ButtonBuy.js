@@ -19,7 +19,7 @@ const ButtonBuy = (props) => {
     //'renderizamos' los botones con su respectiva funcion  
     return(
         <div className='ButtonBuy'>
-            <button className='button'>Details</button>
+            <button className='button'>I want it!</button>
             {/* <button className='button' onClick={disminuir}>-</button>
             <p>{contador}</p>
             <button className='button' onClick={incrementar}>+</button> */}

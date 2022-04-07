@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+*{
+  font-family: 'Grape Nuts', cursive;
+}
 html{
   background-color: #DAF7A6;
   color: #2a1600;
+  font-family: 'Grape Nuts', cursive;
+  font-size: 1.5rem;
 }

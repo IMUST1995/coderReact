@@ -14,13 +14,13 @@ const data = [{
     {
     id: 2,
     title:"Whey Bodybuilding Signature", 
-    brand: "Blend Protein (whey concentrate, isolate, and hydrolyzed.)", 
+    brand: "Blend Protein", 
     price: 69.99, 
     img: "bodybuilding.signature.jpg"
     },
     {
     id: 3,
-    title: "Creatina Monohidratada", 
+    title: "Monohidrated Creatine", 
     brand: "Bulk Suplements", 
     price:"30", 
     img: "creatine.jpg"
@@ -99,7 +99,7 @@ return(
         {products.map( (product) => {
             const { id } = product
             return(
-                <Card data={product} key={id}/>
+                <Card data={product} key={id} />
             )
         })}
     </div>

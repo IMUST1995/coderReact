@@ -5,6 +5,7 @@ import Products from './components/Products/Products'
 import Api from './components/Api'
 import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailContainer';
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
   return (
@@ -15,15 +16,16 @@ function App() {
           <Route path='/' element={<h1>crear homepage</h1>}/>
           <Route path='/contact' element={<h1>crear contact</h1>}/>
           <Route path='/store' element={<Products/>}/>
+          <Route path='/store/1' element={<ItemDetailContainer/>}/>
           <Route path='/us' element={<h1>crear about us</h1>}/>
           <Route path='/Api' element={<Api/>}/>
-          <Route path='*' element={<h1>ERROR 404</h1>}/>
+          <Route path='*' element={<NotFoundPage/>}/>
         </Routes>
       </BrowserRouter>
     </div>
       /* <div>
         <NavBar/>
-        <Title/>
+
         <Products/>
         <ItemDetailContainer/>
         <Api/>
