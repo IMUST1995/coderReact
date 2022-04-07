@@ -17,6 +17,7 @@ function App() {
           <Route path='/store' element={<Products/>}/>
           <Route path='/us' element={<h1>crear about us</h1>}/>
           <Route path='/Api' element={<Api/>}/>
+          <Route path='*' element={<h1>ERROR 404</h1>}/>
         </Routes>
       </BrowserRouter>
     </div>
