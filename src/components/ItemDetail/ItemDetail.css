@@ -1,27 +1,28 @@
-
 .container{
     background-color: #eeeded;
     display: flex;
     justify-content: space-around;
-    margin: 2rem;
+    margin: .8rem;
     border: solid 1px;
     border-radius: 15px;
     box-shadow: rgba(82, 82, 82, 0.516) 2px 2px;
 }
 .imgContainer{
-    width: 50%;
+    max-width: 50%;
 }
 .imgItemDetail{
     width: 100%;
-    margin: 1rem;
+    margin: .5rem .1rem .1rem .1rem;
+    border-radius: 15px;
 }
 
 .infoContainer{
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .sentence{
-    margin: 1rem;
+    margin: 0.2rem;
 }

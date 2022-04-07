@@ -1,3 +1,4 @@
+import ButtonBuy from '../ButtonBuy/ButtonBuy'
 import './ItemDetail.css'
 
 const ItemDetail = ({ data }) =>{
@@ -11,7 +12,9 @@ const ItemDetail = ({ data }) =>{
             <div className='infoContainer'>
                 <h2 className='sentence'>{title}</h2>
                 <h4 className='sentence'>{brand}</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
                 <h3 className='sentence'>${price}</h3>
+                <ButtonBuy/>
             </div>
         </div>
     )

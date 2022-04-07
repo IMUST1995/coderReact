@@ -1,28 +1,22 @@
-div.ButtonBuy{
-    border: 1px solid rgb(137, 105, 0);
-    border-radius: 5px;
-    color: #DAF7A6;
-    background-Color: #2a1600;
-    margin: 0.5rem .5rem;
-    font-size: 1rem;
-    min-width: 75%;
+.buttonBuy{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    cursor: pointer;
-    max-width: .4rem;
-}
-.button{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    border: none;
     background-Color: #2a1600;
     cursor: pointer;
-    margin: 0.1rem 1rem;
     padding: 5px;
     color:#DAF7A6;
     font-size: 1rem;
+    border: 1px solid rgba(137, 105, 0, 0.635);
+    border-radius: 5px;
+    margin: 0.5rem .5rem;
+    min-width: 75%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
     text-align: center;
+    max-width: .4rem;
     }
+.buttonBuy:hover{
+    background-Color: #1c0f01;
+    color:rgb(255, 255, 255);
+    transition: all .6s;
+}
