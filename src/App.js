@@ -16,7 +16,7 @@ function App() {
           <Route path='/' element={<h1>crear homepage</h1>}/>
           <Route path='/contact' element={<h1>crear contact</h1>}/>
           <Route path='/store' element={<Products/>}/>
-          <Route path='/store/1' element={<ItemDetailContainer/>}/>
+          <Route path='/store/:id' element={<ItemDetailContainer/>}/>
           <Route path='/us' element={<h1>crear about us</h1>}/>
           <Route path='/Api' element={<Api/>}/>
           <Route path='*' element={<NotFoundPage/>}/>
